@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+    <acl>
+        <resources>
+            <resource id="Magento_Backend::admin">
+                <resource id="Magento_Backend::content">
+                    <resource id="Pol_Printers::printers" title="Pol Printers" translate="title" sortOrder="71">
+                        <resource id="Pol_Printers::printers_list" title="Printers List" sortOrder="1" />
+                        <resource id="Pol_Printers::printers_save" title="Printers Save" sortOrder="2" />
+                        <resource id="Pol_Printers::printers_add_new" title="Add fNew Printer" sortOrder="3" />
+                    </resource>
+                </resource>
+            </resource>
+        </resources>
+    </acl>
+</config>
